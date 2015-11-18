@@ -1,0 +1,27 @@
+{
+  "name": "invocation-rate-compliance",
+  "version": "0.0.1",
+  "description": "A utility that ensures invocation of a function complies to a limited rate",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bholloway/invocation-rate-compliance.git"
+  },
+  "keywords": [
+    "utility",
+    "function",
+    "invocation",
+    "rate",
+    "frequency",
+    "period",
+    "compliance",
+    "throttle"
+  ],
+  "author": "bholloway",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bholloway/invocation-rate-compliance/issues"
+  },
+  "homepage": "https://github.com/bholloway/invocation-rate-compliance",
+  "dependencies": {}
+}
