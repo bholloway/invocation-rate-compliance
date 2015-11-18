@@ -4,8 +4,8 @@
  * A utility that ensures invocation of a function complies to a limited rate.
  *
  * The utility is a factory for a method that may be invoked. The first invocation is always `compliant` and a chain of
- * methods `[before, compliant, after]` is called. If the method is called again before the given delay then invocation
- * is `anti-compliant` and a chain of methods `[before, antiCompliant, after]` is called.
+ * methods `[before, compliant, after]` is called. If the factoried method is invocated again before the given delay
+ * then invocation is `anti-compliant` and a chain of methods `[before, antiCompliant, after]` is called.
  *
  * The delay is milliseconds measured from the last compliant invocation. Anti-compliant invocations do not change
  * internal state.
