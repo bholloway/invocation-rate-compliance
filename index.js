@@ -17,7 +17,7 @@
  * @param {{delay:number, before:function, after:function, compliant:function, antiCompliant:function}} options
  * @returns {function} A function that will invoke the method chain
  */
-function onThrottled(options) {
+function invocationRateCompliance(options) {
   options = options || {};
   var delay         = options.delay || 0,
       before        = options.before,
@@ -44,4 +44,4 @@ function onThrottled(options) {
   };
 }
 
-module.exports = onThrottled;
+module.exports = invocationRateCompliance;
